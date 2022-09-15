@@ -1972,6 +1972,7 @@ section {
 @media (max-width: 1279.8px) {
   #section-2 .container .form input[type='submit'] {
     width: 237px;
+    top: 220px;
   }
 }
 
@@ -2047,6 +2048,15 @@ section {
   }
 }
 
+@media (max-width: 479.8px) {
+  #section-3 .container .row {
+    height: 500px;
+    background: transparent;
+    z-index: -1;
+    padding: 0 0 0 0px;
+  }
+}
+
 #section-3 .container .row::-webkit-scrollbar {
   -webkit-appearance: none;
   appearance: none;
@@ -2056,10 +2066,7 @@ section {
   width: 570px;
   min-width: 570px;
   background: #fff;
-  filter: drop-shadow(-11px 23px 15px rgba(0, 0, 0, 0.02))
-    drop-shadow(-5px 10px 11px rgba(0, 0, 0, 0.03))
-    drop-shadow(-1px 3px 6px rgba(0, 0, 0, 0.03))
-    drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.03));
+  filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.02));
   border-radius: 20px;
 }
 
@@ -2073,8 +2080,8 @@ section {
 
 @media (max-width: 767.8px) {
   #section-3 .container .row .row__card {
-    width: 296px;
-    min-width: 296px;
+    width: 290px;
+    min-width: 290px;
     height: 429px;
     flex-direction: column;
     z-index: 3;
@@ -2472,11 +2479,11 @@ section {
 @media (max-width: 479.8px) {
   #section-5 .container .section__image-gallery #bg-2 {
     height: 700px;
-    -o-object-fit: 100%;
-    object-fit: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
     -o-object-position: bottom;
     object-position: bottom;
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
     border-radius: 20px;
   }
@@ -3111,6 +3118,7 @@ section {
 @media (max-width: 767.8px) {
   #section-10 .container .form {
     flex-direction: column;
+    padding: 20px;
   }
 }
 
@@ -3170,12 +3178,6 @@ section {
 @media (max-width: 999.8px) {
   #section-10 .container .form #last-input {
     border-right: none;
-  }
-}
-
-@media (max-width: 767.8px) {
-  #section-10 .container .form #last-input {
-    border: none;
   }
 }
 

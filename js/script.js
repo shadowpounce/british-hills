@@ -88,7 +88,7 @@ function adaptiveSlider(documentWidth) {
       dropStyles()
 
       sliderWrapper.style.transform = `translate3d(-${
-        sliderCard.offsetWidth + 30
+        sliderCard.offsetWidth + 38
       }px,0px,0px)`
       bulletSecond.classList.add('bullet-active')
     })
@@ -97,7 +97,7 @@ function adaptiveSlider(documentWidth) {
       dropStyles()
 
       sliderWrapper.style.transform = `translate3d(-${
-        sliderCard.offsetWidth * 2 + 59
+        sliderCard.offsetWidth * 2 + 66
       }px,0px,0px)`
       bulletThird.classList.add('bullet-active')
     })
